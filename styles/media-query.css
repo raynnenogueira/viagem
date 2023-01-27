@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1170px) {
+    .logo{
+        padding: 1.6rem calc((100% - 117rem - 1.6rem) / 2);
+    }
+
+    section{
+        padding: 1.6rem calc((100% - 117rem - 1.6rem) / 2);
+    }
+
+}
+
+@media screen and (min-width: 960px){
+    
+    .mobile-menu{
+        display:none ;
+    }
+       
+    .nav-list{
+       flex-direction: row;
+       align-items: center;  
+       justify-content: center;
+       position: relative; 
+       background-color: white; 
+       height: 10vh;
+    }
+    
+    .nav-list a{
+        color: #23567A;
+    }
+    
+    .navbar-icons{
+        display: flex;
+        margin-right: 1.6rem;
+    }
+    
+    .navbar-icons i{
+        font-size: 2.5rem;
+        font-weight: 900;
+        padding: 1.6rem;
+        color: #23567A;
+        text-decoration: none;
+        transition: all .2s linear;
+    }
+    
+    .navbar-icons i:hover{
+        color: #94D0FB;
+    }
+
+    .hero{
+        padding: 1.6rem calc((100% - 117rem - 1.6rem) / 2);
+    }
+    
+    .hero-text h1{
+        font-size: 7.2rem;
+    }
+
+    .hero-text p{
+        font-size: 6.4;
+    }
+
+    .sobre{
+        height: 90vh;
+    }
+
+    #email{
+        flex: 2;
+        height: auto;
+        margin-right: 3rem;
+    }
+
+    #assinar{
+        font-size: 2.8rem;
+    }
+}
+    
+@media screen and (min-width: 805px) {
+    .pacotes{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow: visible;
+        padding-bottom: 3.2rem;
+        width: 850px;
+        margin: auto;
+    }
+
+    .pacotes::after{
+        content: "";
+    }
+    
+    .pacote{
+        margin-left: 0;
+        transition: all .2s linear;
+    }
+
+    .pacote:hover{
+        transform: scale(1.02);
+    }
+    
+    .pacote:nth-child(n+3){
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre-c{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .sobre-texto{
+        flex: 6 1 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .sobre-c img{
+        flex: 1 1 1rem;
+        margin-right: 1.5rem;
+    }    
+}
+
+@media screen and (min-width: 605px) {
+    .diferenciais{
+        justify-content: space-between;
+    }
+
+    .diferencial{
+        margin: top 0;;
+    }
+
+    section:nth-child(odd){
+        padding-top: 5.6rem;
+        padding-bottom: 5.6rem;
+    }
+
+@media screen and (min-width: 570px) {
+    .newsletter-c {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .newsletter-info, .newsletter-form{
+        flex: 1 1 26rem;
+    }
+}
+
+}
+    
+
+
+
+   
+   
